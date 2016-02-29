@@ -82,7 +82,7 @@ $ curl  https://www.linkedin.com/uas/authenticate  -d 'session_key=username%40gm
 
 login_result:
 - PASS -- success, you can now call the API.
-- BAD_PASSWORD -- failure, self explanatory. 
+- BAD_PASSWORD -- failure, self explanatory.
 - CHALLENGE -- the challenge_url will then be set, call it. solve the recaptcha, party on!
 
 
@@ -160,7 +160,7 @@ This JSON blob is huge and not very well structured. It is tied very strongly to
 
 #### User Page
 
-<code>GET /li/v2/profile/:id</code> 
+<code>GET /li/v2/profile/:id</code>
 
 Get linkedin page/profile for the user's id.
 
@@ -244,7 +244,7 @@ $ curl "https://touch.www.linkedin.com/li/v1/people/7881116/connections?count=50
       "hasPicture": true,
       "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEEAQAAAkmAAAAJDcdZzAFJRIDAKAAA84MFKFKKME.jpg",
       "tType": "pt3"
-    }, 
+    },
     ...]
   }
 ```
@@ -419,7 +419,7 @@ $ curl https://touch.www.linkedin.com/li/v1/pages/mailbox -b cookie.jr -c cookie
 
 ## Installation & Usage
 
-XXX, link to JS and python APIs
+- Node.js implementation: [linkedin-unofficial-api-node](https://github.com/ezrepotein/linkedin-unofficial-api-node)
 
 ## Disclamer
 
